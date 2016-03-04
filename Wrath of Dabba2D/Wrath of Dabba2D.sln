@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{428B87A0-406D-0521-5F69-181CEBC92924}") = "Wrath of Dabba2D", "Assembly-CSharp-firstpass.csproj", "{647E1507-85E5-272F-5649-9F0D13958C5E}"
+EndProject
+Project("{428B87A0-406D-0521-5F69-181CEBC92924}") = "Wrath of Dabba2D", "Assembly-CSharp.csproj", "{CFEBE745-1704-B0E3-70D8-875386CF10D7}"
+EndProject
+Project("{428B87A0-406D-0521-5F69-181CEBC92924}") = "Wrath of Dabba2D", "Assembly-CSharp-Editor.csproj", "{2E3DAAB3-62BD-9477-C599-F97E00BB21BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{647E1507-85E5-272F-5649-9F0D13958C5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{647E1507-85E5-272F-5649-9F0D13958C5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{647E1507-85E5-272F-5649-9F0D13958C5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{647E1507-85E5-272F-5649-9F0D13958C5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFEBE745-1704-B0E3-70D8-875386CF10D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFEBE745-1704-B0E3-70D8-875386CF10D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFEBE745-1704-B0E3-70D8-875386CF10D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFEBE745-1704-B0E3-70D8-875386CF10D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E3DAAB3-62BD-9477-C599-F97E00BB21BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E3DAAB3-62BD-9477-C599-F97E00BB21BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E3DAAB3-62BD-9477-C599-F97E00BB21BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E3DAAB3-62BD-9477-C599-F97E00BB21BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
