@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{4175D102-2773-B23A-FB08-45532E5EF9E8}") = "Wrath of Dabba", "Assembly-CSharp-firstpass.csproj", "{9D311456-FD8D-2915-1295-D89BD97FE3E8}"
+EndProject
+Project("{4175D102-2773-B23A-FB08-45532E5EF9E8}") = "Wrath of Dabba", "Assembly-CSharp.csproj", "{ACC1578D-E482-DAE8-BAF7-85650BEC8B8A}"
+EndProject
+Project("{4175D102-2773-B23A-FB08-45532E5EF9E8}") = "Wrath of Dabba", "Assembly-CSharp-Editor.csproj", "{725302C1-0AAF-D6B4-1852-BDFA024A606D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D311456-FD8D-2915-1295-D89BD97FE3E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D311456-FD8D-2915-1295-D89BD97FE3E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D311456-FD8D-2915-1295-D89BD97FE3E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D311456-FD8D-2915-1295-D89BD97FE3E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACC1578D-E482-DAE8-BAF7-85650BEC8B8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACC1578D-E482-DAE8-BAF7-85650BEC8B8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACC1578D-E482-DAE8-BAF7-85650BEC8B8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACC1578D-E482-DAE8-BAF7-85650BEC8B8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{725302C1-0AAF-D6B4-1852-BDFA024A606D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{725302C1-0AAF-D6B4-1852-BDFA024A606D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{725302C1-0AAF-D6B4-1852-BDFA024A606D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{725302C1-0AAF-D6B4-1852-BDFA024A606D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
