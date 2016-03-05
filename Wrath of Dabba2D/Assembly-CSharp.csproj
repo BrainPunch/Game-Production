@@ -47,8 +47,8 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts to Modify\DabbaControl.cs" />
      <Compile Include="Assets\Scripts to Modify\Enemy.cs" />
+     <Compile Include="Assets\Scripts to Modify\HealthTrack.cs" />
      <Compile Include="Assets\Scripts to Modify\HitMe.cs" />
-     <Compile Include="Assets\Scripts to Modify\ScoreCount.cs" />
      <Compile Include="Assets\Scripts to Modify\Spawner.cs" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
  <Reference Include="UnityEngine.UI">

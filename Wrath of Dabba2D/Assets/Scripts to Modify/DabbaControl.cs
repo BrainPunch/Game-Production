@@ -15,7 +15,7 @@ public class DabbaControl: MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        move = new Vector3(0, Input.GetAxis("Vertical"), 0); //Define a Vector3 for the movement. Only the Y should have any value since Character only moves vertically (pending adjustment to match perspective
+        move = new Vector3( (Input.GetAxis("Vertical"))/2, Input.GetAxis("Vertical"), 0); //Define a Vector3 for the movement. X changes half as much as Y for perspective
 
         transform.position += move * speed * Time.deltaTime; //Adjust position based on speed and deltaTime
 
