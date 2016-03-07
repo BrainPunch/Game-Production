@@ -4,11 +4,12 @@ using System.Collections;
 public class Spawner : MonoBehaviour {
 
 	public GameObject Item;
-	public float SpawnTime = 15f;
+    public float StartOffset = 0f;
+	public float SpawnTime = 5f;
 
 	// Use this for initialization
 	void Start () {
-		InvokeRepeating ("Spawn", 0f, SpawnTime);	
+		InvokeRepeating ("Spawn", StartOffset, SpawnTime);	
 	}
 	
 	// Update is called once per frame
