@@ -30,7 +30,7 @@ public class HealthTrack: MonoBehaviour {
 
             Destroy(Hazard.gameObject); //Destroy the Obstacle after dealing damage
 
-            print("Remaining Health: " + Health);
+            //print("Remaining Health: " + Health);
         }
 
 			

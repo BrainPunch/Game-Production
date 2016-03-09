@@ -6,13 +6,11 @@ public class Enemy : MonoBehaviour {
 	public float speed = 5f;
 	Rigidbody2D rb;
 	Transform t;
-    Object GObject;
 
 	// Use this for initialization
 	void Start () {
 		//rb = GetComponent<Rigidbody2D> ();
 		t = GetComponent<Transform> ();
-        GObject = GetComponent<GameObject>();
 	}
 	
 	// Update is called once per frame
@@ -23,5 +21,22 @@ public class Enemy : MonoBehaviour {
 			Destroy(gameObject);
 		}
 	}
+
+    void OnCollisionEnter2D(Collision2D Edge)
+    {
+        Debug.Log("Touched Something");
+
+        if (Edge.gameObject.tag == "Border")
+        {
+            Debug.Log("Touched Edge");
+
+            Destroy(gameObject);
+
+        }
+
+
+
+
+    }
 
 }
