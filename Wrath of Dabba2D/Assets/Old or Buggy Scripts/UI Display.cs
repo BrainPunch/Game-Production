@@ -2,7 +2,7 @@
 using UnityEngine.UI;
 using System.Collections;
 
-public class UIDisplay : MonoBehaviour {
+public class UI_Display : MonoBehaviour {
 
     private float health_float;
     public Text Show_Health;

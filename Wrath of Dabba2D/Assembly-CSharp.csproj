@@ -1,12 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace>
-    </RootNamespace>
+    <RootNamespace></RootNamespace>
     <ProjectGuid>{CFEBE745-1704-B0E3-70D8-875386CF10D7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -46,28 +45,24 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\GUI_Script.cs">
-      <Link>GUI_Script.cs</Link>
-    </Compile>
-    <Compile Include="Assets\Scripts to Modify\DabbaControl.cs" />
-    <Compile Include="Assets\Scripts to Modify\Enemy.cs" />
-    <Compile Include="Assets\Scripts to Modify\HealthTrack.cs" />
-    <Compile Include="Assets\Scripts to Modify\HitMe.cs" />
-    <Compile Include="Assets\Scripts to Modify\Spawner.cs" />
-    <Compile Include="Assets\UI Display.cs" />
-    <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
-    <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Networking">
-      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
-    </Reference>
+     <Compile Include="Assets\Old or Buggy Scripts\UI Display.cs" />
+     <Compile Include="Assets\Scripts to Modify\DabbaControl.cs" />
+     <Compile Include="Assets\Scripts to Modify\Enemy.cs" />
+     <Compile Include="Assets\Scripts to Modify\HealthTrack.cs" />
+     <Compile Include="Assets\Scripts to Modify\HitMe.cs" />
+     <Compile Include="Assets\Scripts to Modify\Spawner.cs" />
+     <Compile Include="Assets\UIDisplay.cs" />
+     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{647E1507-85E5-272F-5649-9F0D13958C5E}</Project>
-      <Name>Assembly-CSharp-firstpass</Name>
-    </ProjectReference>
+      <Project>{647E1507-85E5-272F-5649-9F0D13958C5E}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
@@ -77,4 +72,5 @@
   <Target Name="AfterBuild">
   </Target>
   -->
+  
 </Project>

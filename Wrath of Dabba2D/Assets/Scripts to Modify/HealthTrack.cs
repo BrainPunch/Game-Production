@@ -6,8 +6,9 @@ public class HealthTrack: MonoBehaviour {
 	public float Health = 100f;
 	float Damage;
 
-	// Use this for initialization
-	void Start () {
+    public UIDisplay Score_Tracker;
+    // Use this for initialization
+    void Start () {
         Debug.Log("Health = " + Health);
 
     }
@@ -22,15 +23,17 @@ public class HealthTrack: MonoBehaviour {
 
         if (Hazard.gameObject.tag == "Obstacles" || Hazard.gameObject.tag == "Enemy" )
         {
-            //Debug.Log("Took Damage");
 
             Damage = 5; //Flat 5 damage for testing purposes 
 
             Health -= Damage; //Subtract the damage from the player's health
 
+            Score_Tracker.Took_Damage(); //Calls UI Script's function for damage to change display text.
+
             Destroy(Hazard.gameObject); //Destroy the Obstacle after dealing damage
 
-            //print("Remaining Health: " + Health);
+            Score_Tracker.Scored_Points(2); //Placeholder to test scoring points on destroying object
+
         }
 
 			
