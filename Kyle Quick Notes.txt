@@ -1,0 +1,19 @@
+Logic for projectiles
+
+- Spawner Script (Check Game Mech final for code reference) on key press
+
+- On collision with hazard (or something destructible), 
+destroy Projectile and whatever it collided with.
+
+- Call "Earned_Points" function with destroyed object's point value
+
+
+Projectile 
+
+- Spawn at Dabba's position
+
+- Will just need fixed forward movement after being fired
+
+- Attach behavior script to itself (for movement, object collision, etc)
+
+- Need to be able to access obstacle's point value.
