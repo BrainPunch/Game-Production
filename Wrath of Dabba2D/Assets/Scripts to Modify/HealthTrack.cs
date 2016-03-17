@@ -30,14 +30,15 @@ public class HealthTrack: MonoBehaviour {
 
             Score_Tracker.Took_Damage(); //Calls UI Script's function for damage to change display text.
 
-            Destroy(Hazard.gameObject); //Destroy the Obstacle after dealing damage
+            Enemy Enemy_Script = Hazard.gameObject.GetComponent<Enemy>(); //Get the Enemy Script so the point value can be accessed
 
-            Score_Tracker.Scored_Points(2); //Placeholder to test scoring points on destroying object
+            Score_Tracker.Scored_Points(Enemy_Script.point_value); //Score Points according to the enemy object's point_value
+
+            Destroy(Hazard.gameObject); //Destroy the Obstacle after dealing damage
 
         }
 
-			
-	
+        
 
-	}
+    }
 }

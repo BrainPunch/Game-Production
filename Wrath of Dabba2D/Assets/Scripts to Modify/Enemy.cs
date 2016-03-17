@@ -7,6 +7,8 @@ public class Enemy : MonoBehaviour {
 	Rigidbody2D rb;
 	Transform t;
 
+    public float point_value = 5f;
+
 	// Use this for initialization
 	void Start () {
 		//rb = GetComponent<Rigidbody2D> ();
@@ -24,12 +26,10 @@ public class Enemy : MonoBehaviour {
 
     void OnCollisionEnter2D(Collision2D Edge)
     {
-        Debug.Log("Touched Something");
 
         if (Edge.gameObject.tag == "Border")
         {
-            Debug.Log("Touched Edge");
-
+            
             Destroy(gameObject);
 
         }
