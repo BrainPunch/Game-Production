@@ -1,19 +1,7 @@
-Logic for projectiles
+Scrolling Background Tutorials
 
-- Spawner Script (Check Game Mech final for code reference) on key press
+https://unity3d.com/learn/tutorials/modules/beginner/live-training-archive/2d-scrolling-backgrounds
 
-- On collision with hazard (or something destructible), 
-destroy Projectile and whatever it collided with.
+https://www.youtube.com/watch?v=HrDxnMI7pCc
 
-- Call "Earned_Points" function with destroyed object's point value
-
-
-Projectile 
-
-- Spawn at Dabba's position
-
-- Will just need fixed forward movement after being fired
-
-- Attach behavior script to itself (for movement, object collision, etc)
-
-- Need to be able to access obstacle's point value.
+http://answers.unity3d.com/questions/19848/making-textures-scroll-animate-textures.html
