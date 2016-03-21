@@ -23,14 +23,20 @@ public class HealthTrack: MonoBehaviour {
 
         if (Hazard.gameObject.tag == "Obstacles" || Hazard.gameObject.tag == "Enemy" )
         {
+    
+            /* Fixed Damage test code for health
 
-            Damage = 5; //Flat 5 damage for testing purposes 
+            //Damage = 5; //Flat 5 damage for testing purposes 
 
-            Health -= Damage; //Subtract the damage from the player's health
+            //Health -= Damage; //Subtract the damage from the player's health
 
-            Score_Tracker.Took_Damage(); //Calls UI Script's function for damage to change display text.
+            */
 
             Enemy Enemy_Script = Hazard.gameObject.GetComponent<Enemy>(); //Get the Enemy Script so the point value can be accessed
+
+            Health -= Enemy_Script.damage; //Subtract the enemy's damage value from Dabba's health
+
+            Score_Tracker.Took_Damage(); //Calls UI Script's function for damage to change display text.
 
             Score_Tracker.Scored_Points(Enemy_Script.point_value); //Score Points according to the enemy object's point_value
 

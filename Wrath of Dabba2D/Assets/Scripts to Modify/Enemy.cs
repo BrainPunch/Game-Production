@@ -9,6 +9,8 @@ public class Enemy : MonoBehaviour {
 
     public float point_value = 5f;
 
+    public float damage = 5f; //Value of the enemies damage for when implementing later
+
 	// Use this for initialization
 	void Start () {
 		//rb = GetComponent<Rigidbody2D> ();
