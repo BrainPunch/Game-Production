@@ -69,11 +69,16 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Old or Buggy Scripts\UI Display.cs" />
     <Compile Include="Assets\Scripts to Modify\DabbaControl.cs" />
+    <Compile Include="Assets\Scripts to Modify\DabbaFireball.cs" />
+    <Compile Include="Assets\Scripts to Modify\DabbaShooter.cs" />
     <Compile Include="Assets\Scripts to Modify\Enemy.cs" />
     <Compile Include="Assets\Scripts to Modify\HealthTrack.cs" />
     <Compile Include="Assets\Scripts to Modify\HitMe.cs" />
     <Compile Include="Assets\Scripts to Modify\Spawner.cs" />
+    <Compile Include="Assets\UIDisplay.cs" />
+    <Compile Include="Assets\scroll.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
