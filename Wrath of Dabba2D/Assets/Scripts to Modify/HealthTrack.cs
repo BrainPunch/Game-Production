@@ -15,6 +15,10 @@ public class HealthTrack: MonoBehaviour {
 
     // Update is called once per frame
     void Update () {
+
+        if (Health <= 0) { //If Dabba's Health drops to 0 or below
+            Time.timeScale = 0; //Set time scale to 0 to effectively pause the game.
+        }
 	
 	}
 

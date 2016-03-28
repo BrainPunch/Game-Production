@@ -54,6 +54,7 @@
      <Compile Include="Assets\Scripts to Modify\HitMe.cs" />
      <Compile Include="Assets\Scripts to Modify\Spawner.cs" />
      <Compile Include="Assets\UIDisplay.cs" />
+     <Compile Include="Assets\scroll.cs" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
