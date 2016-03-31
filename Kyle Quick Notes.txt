@@ -1,7 +1,16 @@
-Scrolling Background Tutorials
+Current objectives
 
-https://unity3d.com/learn/tutorials/modules/beginner/live-training-archive/2d-scrolling-backgrounds
+- Attack methods (Shockwave and Screen Nuke)
 
-https://www.youtube.com/watch?v=HrDxnMI7pCc
+- Other enemy movements ("Victims" and Tanks)
 
-http://answers.unity3d.com/questions/19848/making-textures-scroll-animate-textures.html
+
+Shockwave Logic: Check distance around Dabba, any object with "Hazard" tag destroyed
+
+Screen Nuke: Everything on screen with "Hazard" tag destroyed
+
+
+
+Victims: Run up and down while gradually closing horizontal distance from Dabba
+
+Tanks: Try to stay away from Dabba, though slowly will be reached for stomping
