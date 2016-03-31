@@ -5,7 +5,6 @@ public class DabbaFireball : MonoBehaviour {
 
     Transform t;
     public float speed = 10f;
-
     public UIDisplay Score_Tracker;
 
 
@@ -14,13 +13,11 @@ public class DabbaFireball : MonoBehaviour {
         t = GetComponent<Transform>();
 
         Score_Tracker = GameObject.Find("Canvas").GetComponent<UIDisplay>();
-
     }
 
     // Update is called once per frame
     void Update () {
         t.Translate(speed * Time.deltaTime, 0f, 0f);
-
 
         if (t.position.x > 20f)
         {
