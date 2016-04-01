@@ -48,6 +48,7 @@
      <Compile Include="Assets\Old or Buggy Scripts\UI Display.cs" />
      <Compile Include="Assets\Scripts to Modify\DabbaControl.cs" />
      <Compile Include="Assets\Scripts to Modify\DabbaFireball.cs" />
+     <Compile Include="Assets\Scripts to Modify\DabbaShockwave.cs" />
      <Compile Include="Assets\Scripts to Modify\DabbaShooter.cs" />
      <Compile Include="Assets\Scripts to Modify\Enemy.cs" />
      <Compile Include="Assets\Scripts to Modify\HealthTrack.cs" />
