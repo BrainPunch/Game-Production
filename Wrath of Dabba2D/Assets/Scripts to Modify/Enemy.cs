@@ -13,7 +13,6 @@ public class Enemy : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		//rb = GetComponent<Rigidbody2D> ();
 		t = GetComponent<Transform> ();
 	}
 	
@@ -35,9 +34,6 @@ public class Enemy : MonoBehaviour {
             Destroy(gameObject);
 
         }
-
-
-
 
     }
 

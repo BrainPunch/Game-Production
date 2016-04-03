@@ -24,16 +24,8 @@ public class HealthTrack: MonoBehaviour {
 	void OnCollisionEnter2D(Collision2D Hazard){
         //Debug.Log("Touched Something");
 
-        if (Hazard.gameObject.tag == "Obstacles" || Hazard.gameObject.tag == "Enemy")
+        if (Hazard.gameObject.tag == "Obstacles")
         {
-
-            /* Fixed Damage test code for health
-
-            //Damage = 5; //Flat 5 damage for testing purposes 
-
-            //Health -= Damage; //Subtract the damage from the player's health
-            */
-
             Enemy Enemy_Script = Hazard.gameObject.GetComponent<Enemy>(); //Get the Enemy Script so the point value can be accessed
 
             Health -= Enemy_Script.damage; //Subtract the enemy's damage value from Dabba's health
@@ -43,11 +35,18 @@ public class HealthTrack: MonoBehaviour {
             Score_Tracker.Scored_Points(Enemy_Script.point_value); //Score Points according to the enemy object's point_value
 
             Destroy(Hazard.gameObject); //Destroy the Obstacle after dealing damage
+        }
 
+        if (Hazard.gameObject.tag == "Victim")
+        {
+            VictimScript VictimNumbers = Hazard.gameObject.GetComponent<VictimScript>(); //Get the Victim Script so the point value can be accessed
+
+            Score_Tracker.Scored_Points(VictimNumbers.point_value); //Score Points according to the object's point_value
+
+            Destroy(Hazard.gameObject); //Destroy the Obstacle after dealing damage
         }
 
         else if (Hazard.gameObject.tag == "PowerUp") //If the thing Dabba touched is a PowerUp
-
         {
             DabbaShooter ShooterScript = gameObject.GetComponentInChildren<DabbaShooter>(); //Get the script Dabba uses for power up abilities
 
@@ -58,7 +57,6 @@ public class HealthTrack: MonoBehaviour {
             ShooterScript.uses = PowerScript.Uses;
 
             Destroy(Hazard.gameObject); //Destroy the Power Up after setting numbers
-
         }
 
         

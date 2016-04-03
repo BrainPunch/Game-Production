@@ -86,6 +86,7 @@
     <Compile Include="Assets\Scripts to Modify\HitMe.cs" />
     <Compile Include="Assets\Scripts to Modify\PowerUpScript.cs" />
     <Compile Include="Assets\Scripts to Modify\Spawner.cs" />
+    <Compile Include="Assets\Scripts to Modify\VictimScript.cs" />
     <Compile Include="Assets\UIDisplay.cs" />
     <Compile Include="Assets\scroll.cs" />
   </ItemGroup>
