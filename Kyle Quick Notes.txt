@@ -20,8 +20,8 @@ To-Do's
 
 
 - Other enemy movement patterns
- -- "Victims": Run up and down as they slide towards Dabba
- -- Tanks: Approach Dabba slower, might also consider shooting
+[] -- "Victims": Run up and down as they slide towards Dabba
+[X] -- Tanks: Approach Dabba slower, might also consider shooting later on
 
-- Fix Dabba's "sliding" along top.
- -- Potential Fix: Set "X Speed" to 0 on contact with top and bottom borders
+[X] - Fix Dabba's "sliding" along top.
+ -- Potential Fix: Set "X Speed" to 0 on contact with borders
