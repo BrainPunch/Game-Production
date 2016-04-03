@@ -17,6 +17,11 @@ public class DabbaControl: MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        if (Input.GetKeyDown(KeyCode.Escape)) //If escape key is pressed, quit the application.
+        {
+            //Debug.Log("Hit Escape key");
+            Application.Quit();
+        }
 
         move = new Vector3( ((Input.GetAxis("Vertical"))/2) * Xspeed, Input.GetAxis("Vertical"), 0); //Define a Vector3 for the movement. X changes half as much as Y for perspective, and uses Xspeed to limit movement at border
 
