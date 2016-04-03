@@ -14,3 +14,14 @@ Screen Nuke: Everything on screen with "Hazard" tag destroyed
 Victims: Run up and down while gradually closing horizontal distance from Dabba
 
 Tanks: Try to stay away from Dabba, though slowly will be reached for stomping
+
+
+To-Do's
+
+
+- Other enemy movement patterns
+ -- "Victims": Run up and down as they slide towards Dabba
+ -- Tanks: Approach Dabba slower, might also consider shooting
+
+- Fix Dabba's "sliding" along top.
+ -- Potential Fix: Set "X Speed" to 0 on contact with top and bottom borders
