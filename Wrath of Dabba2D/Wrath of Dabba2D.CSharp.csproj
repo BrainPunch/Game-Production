@@ -76,6 +76,7 @@
     <Compile Include="Assets\Scripts to Modify\Enemy.cs" />
     <Compile Include="Assets\Scripts to Modify\HealthTrack.cs" />
     <Compile Include="Assets\Scripts to Modify\HitMe.cs" />
+    <Compile Include="Assets\Scripts to Modify\PowerUpScript.cs" />
     <Compile Include="Assets\Scripts to Modify\Spawner.cs" />
     <Compile Include="Assets\UIDisplay.cs" />
     <Compile Include="Assets\scroll.cs" />
