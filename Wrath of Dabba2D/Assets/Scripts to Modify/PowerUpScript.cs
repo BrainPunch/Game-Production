@@ -17,12 +17,23 @@ public class PowerUpScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-
         t.Translate(-speed * Time.deltaTime, 0f, 0f);
 
-        if (t.position.x < -50f)
+        if (t.position.x < -30f)
         {
             Destroy(gameObject);
         }
+    }
+
+    void OnCollisionEnter2D(Collision2D Edge)
+    {
+
+        if (Edge.gameObject.tag == "Border")
+        {
+
+            Destroy(gameObject);
+
+        }
+
     }
 }
