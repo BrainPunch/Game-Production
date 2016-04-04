@@ -1,0 +1,267 @@
+fileFormatVersion: 2
+guid: 22bd626373c329942a8467fe1444c200
+timeCreated: 1459793042
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: businessman_strip_0
+    21300002: businessman_strip_1
+    21300004: businessman_strip_2
+    21300006: businessman_strip_3
+    21300008: businessman_strip_4
+    21300010: businessman_strip_5
+    21300012: businessman_strip_6
+    21300014: businessman_strip_7
+    21300016: businessman_strip_8
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: businessman_strip_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1011
+        height: 1223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -80, y: -46.5}
+        - {x: -69, y: -76.5}
+        - {x: 47, y: -125.5}
+        - {x: 91, y: -125.5}
+        - {x: 111, y: -116.5}
+        - {x: 111, y: -32.5}
+        - {x: 37, y: 137.5}
+        - {x: -25, y: 137.5}
+        - {x: -32, y: 133.5}
+        - {x: -80, y: -4.5}
+    - name: businessman_strip_1
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 0
+        width: 1011
+        height: 1223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.669662, y: 137.5}
+        - {x: -42.669662, y: -53.5}
+        - {x: -34.669662, y: -100.5}
+        - {x: -12.669662, y: -137.5}
+        - {x: 46.330338, y: -137.5}
+        - {x: 61.330338, y: -109.5}
+        - {x: 61.330338, y: 113.5}
+        - {x: 51.330338, y: 137.5}
+    - name: businessman_strip_2
+      rect:
+        serializedVersion: 2
+        x: 2022
+        y: 0
+        width: 1011
+        height: 1223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29.660675, y: 137.5}
+        - {x: -56.339325, y: 137.5}
+        - {x: -62.339325, y: 94.5}
+        - {x: -62.339325, y: -131.5}
+        - {x: -49.339325, y: -136.5}
+        - {x: 7.660675, y: -136.5}
+        - {x: 75.660675, y: -49.5}
+        - {x: 75.660675, y: 44.5}
+        - {x: 72.660675, y: 52.5}
+    - name: businessman_strip_3
+      rect:
+        serializedVersion: 2
+        x: 3033
+        y: 0
+        width: 1011
+        height: 1223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 80.49103, y: 43.5}
+        - {x: 71.49103, y: 45.5}
+        - {x: 58.491028, y: 46.5}
+        - {x: 62.491028, y: 47.5}
+        - {x: 69.49103, y: 48.5}
+        - {x: 70.49103, y: 73.5}
+        - {x: 58.491028, y: 137.5}
+        - {x: -35.508972, y: 137.5}
+        - {x: -97.50897, y: 69.5}
+        - {x: -97.50897, y: -77.5}
+        - {x: 115.49103, y: -77.5}
+        - {x: 115.49103, y: -16.5}
+        - {x: 99.49103, y: 37.5}
+    - name: businessman_strip_4
+      rect:
+        serializedVersion: 2
+        x: 4044
+        y: 0
+        width: 1011
+        height: 1223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32.32135, y: 137.5}
+        - {x: -16.67865, y: 137.5}
+        - {x: -29.67865, y: 132.5}
+        - {x: -27.67865, y: 89.5}
+        - {x: -20.67865, y: 89.5}
+        - {x: -22.67865, y: 89.5}
+        - {x: -28.67865, y: 85.5}
+        - {x: -86.67865, y: 95.5}
+        - {x: -91.67865, y: 66.5}
+        - {x: -91.67865, y: -108.5}
+        - {x: 75.32135, y: -108.5}
+        - {x: 88.32135, y: -96.5}
+        - {x: 88.32135, y: 63.5}
+      - - {x: -113.67865, y: -49.5}
+        - {x: -110.67865, y: -48.5}
+        - {x: -110.67865, y: -42.5}
+        - {x: -112.67865, y: -40.5}
+        - {x: -113.67865, y: -40.5}
+    - name: businessman_strip_5
+      rect:
+        serializedVersion: 2
+        x: 5055
+        y: 0
+        width: 1011
+        height: 1223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.651733, y: 137.5}
+        - {x: -41.348267, y: 137.5}
+        - {x: -41.348267, y: -101.5}
+        - {x: -6.3482666, y: -109.5}
+        - {x: 34.651733, y: -109.5}
+        - {x: 53.651733, y: -72.5}
+        - {x: 53.651733, y: 97.5}
+        - {x: 38.651733, y: 121.5}
+    - name: businessman_strip_6
+      rect:
+        serializedVersion: 2
+        x: 6066
+        y: 0
+        width: 1011
+        height: 1223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.482056, y: -36.5}
+        - {x: 30.482056, y: -34.5}
+        - {x: 9.482056, y: -53.5}
+        - {x: 5.4820557, y: -58.5}
+        - {x: 7.4820557, y: -66.5}
+        - {x: 28.482056, y: -96.5}
+        - {x: 47.482056, y: -95.5}
+        - {x: 83.482056, y: -63.5}
+        - {x: 83.482056, y: -10.5}
+        - {x: 63.482056, y: 74.5}
+        - {x: 27.482056, y: 137.5}
+        - {x: -50.517944, y: 137.5}
+        - {x: -50.517944, y: -111.5}
+        - {x: -42.517944, y: -113.5}
+        - {x: 1.4820557, y: -113.5}
+        - {x: 5.4820557, y: -112.5}
+        - {x: 3.4820557, y: -102.5}
+        - {x: -18.517944, y: -84.5}
+        - {x: 15.482056, y: -46.5}
+    - name: businessman_strip_7
+      rect:
+        serializedVersion: 2
+        x: 7077
+        y: 0
+        width: 1011
+        height: 1223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.312378, y: 137.5}
+        - {x: -26.687622, y: 137.5}
+        - {x: -90.68762, y: 11.5}
+        - {x: -92.68762, y: -1.5}
+        - {x: -92.68762, y: -60.5}
+        - {x: 83.31238, y: -80.5}
+        - {x: 101.31238, y: -80.5}
+        - {x: 101.31238, y: 36.5}
+        - {x: 80.31238, y: 100.5}
+    - name: businessman_strip_8
+      rect:
+        serializedVersion: 2
+        x: 8088
+        y: 0
+        width: 1011
+        height: 1223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -78.3573, y: -57.5}
+        - {x: 28.6427, y: -136.5}
+        - {x: 93.6427, y: -136.5}
+        - {x: 93.6427, y: 40.5}
+        - {x: 84.6427, y: 80.5}
+        - {x: 62.6427, y: 137.5}
+        - {x: -32.3573, y: 137.5}
+        - {x: -78.3573, y: 86.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
