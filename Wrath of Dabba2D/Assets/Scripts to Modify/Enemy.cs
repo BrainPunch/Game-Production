@@ -4,9 +4,9 @@ using System.Collections;
 public class Enemy : MonoBehaviour {
 
 	public float speed = 5f;
-	Rigidbody2D rb;
-	Transform t;
-
+    Transform t;
+    //Rigidbody2D rb;
+    
     public float point_value = 5f;
 
     public float damage = 5f; //Value of the enemies damage for when implementing later

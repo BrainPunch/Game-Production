@@ -20,7 +20,9 @@ public class VictimScript : MonoBehaviour {
     // Update is called once per frame
     void Update () {
 
-        //Need to add way to do up and down running
+        //Need to add way to do up and down running and change Translate's Y-component
+
+
         t.Translate(-speed * Time.deltaTime, 0f, 0f);
 
         if (t.position.x < -50f)
