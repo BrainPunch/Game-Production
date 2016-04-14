@@ -34,7 +34,7 @@ public class DabbaFireball : MonoBehaviour {
 
             Enemy Enemy_Script = Hazard.gameObject.GetComponent<Enemy>(); //Get the Enemy Script so the point value can be accessed
 
-            Score_Tracker.Scored_Points(Enemy_Script.point_value); //Score Points according to the enemy object's point_value
+            Score_Tracker.Scored_Points(Enemy_Script.point_value, Hazard.gameObject.name); //Score Points according to the enemy object's point_value and feed the name for multiplier
 
             Destroy(Hazard.gameObject); //Destroy the Obstacle the shot collided with
 

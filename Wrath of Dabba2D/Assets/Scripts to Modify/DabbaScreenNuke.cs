@@ -33,7 +33,7 @@ public class DabbaScreenNuke : MonoBehaviour {
             if (ObjectsInWave[a].gameObject.tag == "Obstacles" || ObjectsInWave[a].gameObject.tag == "Enemy") //If the collider's game object has the "Obstacles" or "Enemy" tag
             {
                 float PointsScored = ObjectsInWave[a].gameObject.GetComponent<Enemy>().point_value; //Get the point value of the object being checked
-                Score_Tracker.Scored_Points(PointsScored); //Score Points according to the enemy object's point_value
+                Score_Tracker.Scored_Points(PointsScored, ObjectsInWave[a].gameObject.name); //Score Points according to the enemy object's point_value and give hte name for the multiplier
 
                 Destroy(ObjectsInWave[a].gameObject); //Destroy the obstacle game object
             }

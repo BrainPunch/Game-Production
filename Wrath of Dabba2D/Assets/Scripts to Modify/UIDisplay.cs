@@ -54,7 +54,7 @@ public class UIDisplay : MonoBehaviour {
     { //Use this function when the player scores points, passing in a float for the objects point value
 
         score += Points_Earned * multiplier; //Increase score's value by the variable for points earned
-        Show_Score.text = "SCORE   " + score.ToString(); //Display updated score
+        Show_Score.text = "SCORE   " + score.ToString() + "\n Multiplier:    x" +multiplier.ToString(); //Display updated score
 
         if (enemy_name == prev_object)
         { //If the enemy_name matches that of the previous object

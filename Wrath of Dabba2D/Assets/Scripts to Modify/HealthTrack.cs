@@ -32,7 +32,7 @@ public class HealthTrack: MonoBehaviour {
 
             Score_Tracker.Took_Damage(); //Calls UI Script's function for damage to change display text.
 
-            Score_Tracker.Scored_Points(Enemy_Script.point_value, Hazard.name); //Score Points according to the enemy object's point_value
+            Score_Tracker.Scored_Points(Enemy_Script.point_value, Hazard.gameObject.name); //Score Points according to the enemy object's point_value
 
             Destroy(Hazard.gameObject); //Destroy the Obstacle after dealing damage
         }
@@ -41,7 +41,7 @@ public class HealthTrack: MonoBehaviour {
         {
             VictimScript VictimNumbers = Hazard.gameObject.GetComponent<VictimScript>(); //Get the Victim Script so the point value can be accessed
 
-            Score_Tracker.Scored_Points(VictimNumbers.point_value); //Score Points according to the object's point_value
+            Score_Tracker.Scored_Points(VictimNumbers.point_value, Hazard.gameObject.name); //Score Points according to the object's point_value
 
             Destroy(Hazard.gameObject); //Destroy the Obstacle after dealing damage
         }
