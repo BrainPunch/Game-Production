@@ -1,27 +1,22 @@
 Current objectives
 
-- Attack methods (Shockwave and Screen Nuke)
-
-- Other enemy movements ("Victims" and Tanks)
-
-
-Shockwave Logic: Check distance around Dabba, any object with "Hazard" tag destroyed
-
-Screen Nuke: Everything on screen with "Hazard" tag destroyed
-
-
-
-Victims: Run up and down while gradually closing horizontal distance from Dabba
-
-Tanks: Try to stay away from Dabba, though slowly will be reached for stomping
-
-
 To-Do's
+
+URGENT
+- Add "victim" tag to functionality of attacks
 
 
 - Other enemy movement patterns
 [] -- "Victims": Run up and down as they slide towards Dabba
-[X] -- Tanks: Approach Dabba slower, might also consider shooting later on
+[X] -- Tanks: Add shooting 
 
-[X] - Fix Dabba's "sliding" along top.
- -- Potential Fix: Set "X Speed" to 0 on contact with borders
+- Layering Adjustment
+-- Set Z to match Y value, ensure objects "closer" to bottom are in
+front, maintain perspective
+
+- Add multiplier mechanic
+-- Add variables on Dabba to hold the gameObject's name and a count
+-- Increase count if object destroyed matches the retained name
+-- Change name and stagnate/reset Multiplier if different object
+
+- Need to store Score in some manner for high score retention later
