@@ -8,7 +8,10 @@ public class UIDisplay : MonoBehaviour {
     public Text Show_Health;
     public HealthTrack Dabba_Health_Script; //Give the UI access to Dabba's Health Script for display purposes
 
-    private float score;
+    float score;
+    float multiplier = 1;
+    string prev_object = "";
+
     public Text Show_Score;
 
     public DabbaShooter Shooter_Script;
@@ -47,10 +50,20 @@ public class UIDisplay : MonoBehaviour {
         Show_Health.text = "HP   " + health_float.ToString(); //Give the value of Dabba's health to the Text object the UI will show
     }
 
-    public void Scored_Points(float Points_Earned)
+    public void Scored_Points(float Points_Earned, string enemy_name)
     { //Use this function when the player scores points, passing in a float for the objects point value
 
-        score += Points_Earned; //Increase score's value by the variable for points earned
+        score += Points_Earned * multiplier; //Increase score's value by the variable for points earned
         Show_Score.text = "SCORE   " + score.ToString(); //Display updated score
+
+        if (enemy_name == prev_object)
+        { //If the enemy_name matches that of the previous object
+            multiplier += 1; //Increase the multiplier by 1
+        }
+        else
+        {
+            prev_object = enemy_name; //Remember this name as the most recent object to reset the multiplier check
+            multiplier = 1; //Set the multiplier back to 1
+        }
     }
 }
