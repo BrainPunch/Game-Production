@@ -2,9 +2,6 @@ Current objectives
 
 To-Do's
 
-URGENT
-- Add "victim" tag to functionality of attacks
-
 
 - Other enemy movement patterns
 [] -- "Victims": Run up and down as they slide towards Dabba
@@ -15,8 +12,16 @@ URGENT
 front, maintain perspective
 
 - Add multiplier mechanic
--- Add variables on Dabba to hold the gameObject's name and a count
--- Increase count if object destroyed matches the retained name
--- Change name and stagnate/reset Multiplier if different object
+-- [X] Add variables on Dabba to hold the gameObject's name and a count
+-- [X] Increase count if object destroyed matches the retained name
+-- [X] Change name and stagnate/reset Multiplier if different object
+
+-- Add functionality for Multiplier to spawn power ups
 
 - Need to store Score in some manner for high score retention later
+
+- Figure out how to do up and down strafing
+-- Upper and lower limit. When greater than upper limit or less than 
+   lower limit, switch direction
+
+- Add Arrays to spawners so one spawner can handle multiple objects.
