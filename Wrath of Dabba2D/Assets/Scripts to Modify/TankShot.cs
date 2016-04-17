@@ -30,11 +30,12 @@ public class TankShot : MonoBehaviour {
         Dabba_start = Dabba_Loc.position; //Get Dabba's position when the projectile is spawned
 
         direction = (Dabba_start - Shot_start).normalized;
+
+        t.position = new Vector3(t.position.x, t.position.y, t.position.y); //Set the position of the object so its z value matches its Y value for layering purposes
     }
 	
 	// Update is called once per frame
 	void Update () {
-        //t.Translate(-speed * Time.deltaTime, 0f, 0f);
         if (Dabba_Loc == null) {
             Debug.Log("No Dabba Loc");
         }

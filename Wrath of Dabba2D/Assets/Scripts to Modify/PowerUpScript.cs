@@ -12,6 +12,8 @@ public class PowerUpScript : MonoBehaviour {
     // Use this for initialization
     void Start () {
         t = GetComponent<Transform>();
+
+        t.position = new Vector3(t.position.x, t.position.y, t.position.y); //Set the position of the object so its z value matches its Y value for layering purposes
     }
 	
 	// Update is called once per frame

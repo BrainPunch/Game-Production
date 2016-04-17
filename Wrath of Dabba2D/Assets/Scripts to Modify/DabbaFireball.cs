@@ -11,6 +11,7 @@ public class DabbaFireball : MonoBehaviour {
     // Use this for initialization
     void Start () {
         t = GetComponent<Transform>();
+        t.position = new Vector3(t.position.x, t.position.y, t.position.y); //Set the position of the object so its z value matches its Y value for layering purposes
 
         Score_Tracker = GameObject.Find("Canvas").GetComponent<UIDisplay>();
     }
@@ -19,7 +20,7 @@ public class DabbaFireball : MonoBehaviour {
     void Update () {
         t.Translate(speed * Time.deltaTime, 0f, 0f);
 
-        if (t.position.x > 20f)
+        if (t.position.x >= 20f)
         {
             Destroy(gameObject);
         }

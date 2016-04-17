@@ -17,7 +17,7 @@ public class PowerSpawnScript : MonoBehaviour {
     // Update is called once per frame
     void Spawn()
     {
-        Instantiate(Item[a%3], transform.position, Quaternion.identity);
+        Instantiate(Item[a%Item.Length], transform.position, Quaternion.identity);
 
         a++;
     }
