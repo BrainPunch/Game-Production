@@ -5,7 +5,8 @@ public class Spawner : MonoBehaviour {
 
 	public GameObject[] Spawnables;
     public float StartOffset = 0f;
-	public float SpawnTime = 5f;
+    public int MinWaitTime = 1;
+    public int MaxWaitTime = 2;
 
     //int SpawnInd = 0; //Int to randomly spawn something from the array of objects in Spawnables
 
@@ -37,7 +38,7 @@ public class Spawner : MonoBehaviour {
     void Spawn () {
         //SpawnInd = Random.Range(0, Spawnables.Length ) ;
 
-        float randomTime = Random.Range(3, 8); //Determine an amount of time between 3 and 8 seconds (exclusive) to invoke the function again
+        float randomTime = Random.Range(MinWaitTime, MaxWaitTime); //Determine an amount of time between 3 and 8 seconds (exclusive) to invoke the function again
 
 
 
