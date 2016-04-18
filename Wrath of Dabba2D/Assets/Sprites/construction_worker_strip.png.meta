@@ -1,0 +1,274 @@
+fileFormatVersion: 2
+guid: c9827eeb485431843a782158090c4c09
+timeCreated: 1461013416
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: construction_worker_strip_0
+    21300002: construction_worker_strip_1
+    21300004: construction_worker_strip_2
+    21300006: construction_worker_strip_3
+    21300008: construction_worker_strip_4
+    21300010: construction_worker_strip_5
+    21300012: construction_worker_strip_6
+    21300014: construction_worker_strip_7
+    21300016: construction_worker_strip_8
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 200
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: construction_worker_strip_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1097
+        height: 1205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 125}
+        - {x: -28, y: 125}
+        - {x: -85, y: -8}
+        - {x: -85, y: -88}
+        - {x: -29, y: -112}
+        - {x: 85, y: -112}
+        - {x: 91, y: -108}
+        - {x: 92, y: -106}
+        - {x: 92, y: -45}
+        - {x: 49, y: 71}
+    - name: construction_worker_strip_1
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 0
+        width: 1097
+        height: 1205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.944443, y: 125}
+        - {x: -32.944443, y: 124}
+        - {x: -32.944443, y: 51}
+        - {x: -29.944443, y: 31}
+        - {x: -32.944443, y: 9}
+        - {x: -32.944443, y: -110}
+        - {x: -8.944443, y: -125}
+        - {x: 31.055557, y: -125}
+        - {x: 45.055557, y: -99}
+        - {x: 45.055557, y: 87}
+        - {x: 30.055557, y: 125}
+    - name: construction_worker_strip_2
+      rect:
+        serializedVersion: 2
+        x: 2194
+        y: 0
+        width: 1097
+        height: 1205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 111.111115, y: -120}
+        - {x: 109.111115, y: -122}
+        - {x: 109.111115, y: -125}
+        - {x: 114.111115, y: -125}
+        - {x: 114.111115, y: -121}
+        - {x: 113.111115, y: -120}
+      - - {x: 43.111115, y: 125}
+        - {x: -40.888885, y: 125}
+        - {x: -69.888885, y: -25}
+        - {x: -69.888885, y: -113}
+        - {x: -52.888885, y: -122}
+        - {x: -18.888885, y: -122}
+        - {x: -17.888885, y: -121}
+        - {x: -18.888885, y: -113}
+        - {x: 57.111115, y: -43}
+        - {x: 57.111115, y: 72}
+    - name: construction_worker_strip_3
+      rect:
+        serializedVersion: 2
+        x: 3291
+        y: 0
+        width: 1097
+        height: 1205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -110.83331, y: -125}
+        - {x: -110.83331, y: -122}
+        - {x: -113.83331, y: -121}
+        - {x: -113.83331, y: -125}
+      - - {x: 54.166687, y: 48}
+        - {x: 42.166687, y: 46}
+        - {x: 34.166687, y: 42}
+        - {x: 32.166687, y: 42}
+        - {x: 33.166687, y: 42}
+        - {x: 37.166687, y: 44}
+        - {x: 44.166687, y: 47}
+        - {x: 74.16669, y: 50}
+        - {x: 38.166687, y: 125}
+        - {x: -62.833313, y: 125}
+        - {x: -102.83331, y: 54}
+        - {x: -102.83331, y: -68}
+        - {x: 55.166687, y: -68}
+        - {x: 97.16669, y: -63}
+        - {x: 97.16669, y: 10}
+        - {x: 80.16669, y: 51}
+    - name: construction_worker_strip_4
+      rect:
+        serializedVersion: 2
+        x: 4388
+        y: 0
+        width: 1097
+        height: 1205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -54.77777, y: 125}
+        - {x: -96.77777, y: 43}
+        - {x: -96.77777, y: -69}
+        - {x: -9.777771, y: -97}
+        - {x: 69.22223, y: -97}
+        - {x: 69.22223, y: 62}
+        - {x: 43.22223, y: 125}
+    - name: construction_worker_strip_5
+      rect:
+        serializedVersion: 2
+        x: 5485
+        y: 0
+        width: 1097
+        height: 1205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.72229, y: 125}
+        - {x: -42.72229, y: 118}
+        - {x: -42.72229, y: -64}
+        - {x: -11.72229, y: -98}
+        - {x: 12.27771, y: -98}
+        - {x: 18.27771, y: -95}
+        - {x: 38.27771, y: -68}
+        - {x: 38.27771, y: 55}
+        - {x: 24.27771, y: 125}
+    - name: construction_worker_strip_6
+      rect:
+        serializedVersion: 2
+        x: 6582
+        y: 0
+        width: 1097
+        height: 1205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4.333374, y: -101}
+        - {x: 13.333374, y: -101}
+        - {x: 63.333374, y: -68}
+        - {x: 63.333374, y: 1}
+        - {x: 13.333374, y: 125}
+        - {x: -23.666626, y: 125}
+        - {x: -46.666626, y: 97}
+        - {x: -39.666626, y: 32}
+        - {x: -32.666626, y: 20}
+        - {x: -59.666626, y: -66}
+        - {x: -59.666626, y: -81}
+        - {x: -38.666626, y: -101}
+        - {x: 4.333374, y: -101}
+        - {x: -25.666626, y: -74}
+        - {x: -10.666626, y: -52}
+        - {x: -10.666626, y: -56}
+    - name: construction_worker_strip_7
+      rect:
+        serializedVersion: 2
+        x: 7679
+        y: 0
+        width: 1097
+        height: 1205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -97.611084, y: 3}
+        - {x: -97.611084, y: -66}
+        - {x: -77.611084, y: -71}
+        - {x: 81.388916, y: -71}
+        - {x: 81.388916, y: 55}
+        - {x: 55.388916, y: 125}
+        - {x: -39.611084, y: 125}
+        - {x: -78.611084, y: 76}
+    - name: construction_worker_strip_8
+      rect:
+        serializedVersion: 2
+        x: 8776
+        y: 0
+        width: 1097
+        height: 1205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.444458, y: 125}
+        - {x: -23.555542, y: 125}
+        - {x: -26.555542, y: 124}
+        - {x: -35.555542, y: 98}
+        - {x: -33.555542, y: 94}
+        - {x: -85.55554, y: 66}
+        - {x: -85.55554, y: -81}
+        - {x: -51.555542, y: -122}
+        - {x: 59.444458, y: -122}
+        - {x: 73.44446, y: -107}
+        - {x: 73.44446, y: -64}
+        - {x: 45.444458, y: 99}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
