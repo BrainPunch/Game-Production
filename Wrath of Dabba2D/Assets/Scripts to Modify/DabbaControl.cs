@@ -26,6 +26,7 @@ public class DabbaControl: MonoBehaviour {
         move = new Vector3( ((Input.GetAxis("Vertical"))/2) * Xspeed, Input.GetAxis("Vertical"), 0); //Define a Vector3 for the movement. X changes half as much as Y for perspective, and uses Xspeed to limit movement at border
 
         transform.position += move * speed * Time.deltaTime; //Adjust position based on speed and deltaTime
+        transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.y); //Adjust Z position to match y position
 
         
 	}

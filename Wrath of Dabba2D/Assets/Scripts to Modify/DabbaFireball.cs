@@ -41,5 +41,12 @@ public class DabbaFireball : MonoBehaviour {
 
         }
 
+        if (Hazard.gameObject.tag == "Victim") { //Scripting for Victims
+            float PointsScored = Hazard.gameObject.GetComponent<VictimScript>().point_value; //Get the point value of the object being checked
+            Score_Tracker.Scored_Points(PointsScored, Hazard.gameObject.name); //Score Points according to the enemy object's point_value and give the name for the multiplier
+
+            Destroy(Hazard.gameObject); //Destroy the obstacle game object
+        }
+
     }
 }

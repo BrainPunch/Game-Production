@@ -38,6 +38,13 @@ public class DabbaScreenNuke : MonoBehaviour {
                 Destroy(ObjectsInWave[a].gameObject); //Destroy the obstacle game object
             }
 
+            if (ObjectsInWave[a].gameObject.tag == "Victim") { //Scripting for Victims
+                float PointsScored = ObjectsInWave[a].gameObject.GetComponent<VictimScript>().point_value; //Get the point value of the object being checked
+                Score_Tracker.Scored_Points(PointsScored, ObjectsInWave[a].gameObject.name); //Score Points according to the enemy object's point_value and give hte name for the multiplier
+
+                Destroy(ObjectsInWave[a].gameObject); //Destroy the obstacle game object
+            }
+
             a++; //Increment a to advance in the array
         }
 
