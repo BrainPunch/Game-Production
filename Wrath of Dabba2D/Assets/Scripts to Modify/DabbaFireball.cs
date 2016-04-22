@@ -18,7 +18,7 @@ public class DabbaFireball : MonoBehaviour {
 
     // Update is called once per frame
     void Update () {
-        t.Translate(speed * Time.deltaTime, 0f, 0f);
+        t.Translate(speed * Time.deltaTime, -0.1f * speed * Time.deltaTime, 0f);
 
         if (t.position.x >= 20f)
         {

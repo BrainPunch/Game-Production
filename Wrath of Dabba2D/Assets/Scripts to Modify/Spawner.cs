@@ -24,11 +24,11 @@ public class Spawner : MonoBehaviour {
 
     void Update()
     {
-        //Can move between -4.5 and 0.5 on Y-axis in this scene
+        //Can move between -4.2 and 0.5 on Y-axis in this scene
         if (transform.position.y >= 0.5) { //If it goes to 0.5 or more
             direction = -1; //Change direction to be negative
         }
-        if (transform.position.y <= -4.5) { //If it goes to -4.5 or below
+        if (transform.position.y <= -4.2) { //If it goes to -4.2 or below
             direction = 1; //Change direction back to positive
         }
 

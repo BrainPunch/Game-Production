@@ -7,9 +7,12 @@ public class HealthTrack: MonoBehaviour {
 	float Damage;
 
     public UIDisplay Score_Tracker;
+
     // Use this for initialization
     void Start () {
-
+        if (!Score_Tracker) { //If ScoreTracker is not set somewhere
+            Score_Tracker = GameObject.Find("Canvas").GetComponent<UIDisplay>(); //Set the score tracker to the UIDisplay script on the canvas
+        }
     }
 
     // Update is called once per frame
