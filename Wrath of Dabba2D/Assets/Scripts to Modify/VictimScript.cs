@@ -13,6 +13,8 @@ public class VictimScript : MonoBehaviour {
 
     public int direction = 1;
 
+    public GameObject Explosive;
+
 
     // Use this for initialization
     void Start () {
@@ -51,5 +53,13 @@ public class VictimScript : MonoBehaviour {
             Destroy(gameObject);
         }
 
+    }
+
+    void OnDestroy()
+    {
+        if (Explosive != null)
+        { //If there is a gameobject for the explosion
+            Instantiate(Explosive, transform.position, Quaternion.identity); //Instantiate the explosion
+        }
     }
 }

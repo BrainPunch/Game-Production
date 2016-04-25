@@ -67,7 +67,7 @@ public class LimoPowerSpawn : MonoBehaviour {
 
         if (PowerUpItems[chosen].ActualItem) { //Instantiate the item if there is a valid gameObject at this Index. Allows insertion of a null Object chance so a Power Up doesn't always spawn
 
-            Instantiate(PowerUpItems[chosen].ActualItem, transform.position, Quaternion.identity); //Instantiate the actual item chosen by the weight
+            Instantiate(PowerUpItems[chosen].ActualItem, transform.position + new Vector3(10f, 0, 0), Quaternion.identity); //Instantiate the actual item chosen by the weight at a certain x-distance from the limo
 
         }
         //Instantiate(PowerUpItems[chosen].ActualItem, transform.position, Quaternion.identity); //Instantiate the actual item chosen by the weight

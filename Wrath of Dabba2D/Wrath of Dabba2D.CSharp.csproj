@@ -76,6 +76,7 @@
     <Compile Include="Assets\Scripts to Modify\DabbaShockwave.cs" />
     <Compile Include="Assets\Scripts to Modify\DabbaShooter.cs" />
     <Compile Include="Assets\Scripts to Modify\Enemy.cs" />
+    <Compile Include="Assets\Scripts to Modify\ExplodeEffect.cs" />
     <Compile Include="Assets\Scripts to Modify\HealthTrack.cs" />
     <Compile Include="Assets\Scripts to Modify\HitMe.cs" />
     <Compile Include="Assets\Scripts to Modify\LimoPowerSpawn.cs" />
