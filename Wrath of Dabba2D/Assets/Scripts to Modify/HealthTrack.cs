@@ -8,6 +8,9 @@ public class HealthTrack: MonoBehaviour {
 
     public UIDisplay Score_Tracker;
 
+    public bool Invinciblity = false; //Boolean to decide if Dabba is Invincible
+    float InvinceTime = 0f; //Time Dabba will be invincible for.
+
     // Use this for initialization
     void Start () {
         if (!Score_Tracker) { //If ScoreTracker is not set somewhere
@@ -21,7 +24,13 @@ public class HealthTrack: MonoBehaviour {
         if (Health <= 0) { //If Dabba's Health drops to 0 or below
             Time.timeScale = 0; //Set time scale to 0 to effectively pause the game.
         }
-	
+
+        InvinceTime -= Time.deltaTime; //Reduce the Invincibility time every frame
+        if (InvinceTime <= 0 && Invinciblity == true) { //If the duration drops to 0
+            Debug.Log("Not Invincible");
+
+            Invinciblity = false; //Set invincible to false
+        }
 	}
 
 	void OnCollisionEnter2D(Collision2D Hazard){
@@ -30,8 +39,15 @@ public class HealthTrack: MonoBehaviour {
         if (Hazard.gameObject.tag == "Obstacles")
         {
             Enemy Enemy_Script = Hazard.gameObject.GetComponent<Enemy>(); //Get the Enemy Script so the point value can be accessed
-            Health -= Enemy_Script.damage; //Subtract the enemy's damage value from Dabba's health
-            Score_Tracker.Took_Damage(); //Calls UI Script's function for damage to change display text.
+
+            if (Invinciblity == false)
+            { //Only deduct health is Dabba is not invincible. Check if Invincibility is true
+
+                Health -= Enemy_Script.damage; //Subtract the enemy's damage value from Dabba's health
+                Score_Tracker.Took_Damage(); //Calls UI Script's function for damage to change display text.
+            }
+            else { Debug.Log("Invincible, no damage"); }
+            
             Score_Tracker.Scored_Points(Enemy_Script.point_value, Hazard.gameObject.name); //Score Points according to the enemy object's point_value
             Destroy(Hazard.gameObject); //Destroy the Obstacle after dealing damage
         }
@@ -57,6 +73,14 @@ public class HealthTrack: MonoBehaviour {
             Health += HealthScript.Restores; //Restore the amount of health for the power up
 
             Score_Tracker.Took_Damage(); //Calls UI Script's function for damage to change display text. Same script despite health being gained
+            Destroy(Hazard.gameObject); //Destroy the Power Up after setting numbers
+        }
+
+        else if (Hazard.gameObject.tag == "Invincibility") { //For the invincibility power up.
+
+            Invinciblity = true;
+            InvinceTime = Hazard.gameObject.GetComponent<InvinciblityPowerUp>().duration; //Make Dabba Invincible and set its duration to the one given by the powerup
+
             Destroy(Hazard.gameObject); //Destroy the Power Up after setting numbers
         }
 

@@ -79,6 +79,7 @@
     <Compile Include="Assets\Scripts to Modify\ExplodeEffect.cs" />
     <Compile Include="Assets\Scripts to Modify\HealthTrack.cs" />
     <Compile Include="Assets\Scripts to Modify\HitMe.cs" />
+    <Compile Include="Assets\Scripts to Modify\InvinciblityPowerUp.cs" />
     <Compile Include="Assets\Scripts to Modify\LimoPowerSpawn.cs" />
     <Compile Include="Assets\Scripts to Modify\PowerSpawnScript.cs" />
     <Compile Include="Assets\Scripts to Modify\PowerUpScript.cs" />
