@@ -21,8 +21,12 @@ public class HealthTrack: MonoBehaviour {
     // Update is called once per frame
     void Update () {
 
-        if (Health <= 0) { //If Dabba's Health drops to 0 or below
+        if (Health <= 0 && Time.timeScale != 0) { //If Dabba's Health drops to 0 or below and the game is not already stopped with a 0 Timescale
+
+            Score_Tracker.Set_High_Score(); //Call the function to set the high score
             Time.timeScale = 0; //Set time scale to 0 to effectively pause the game.
+
+            //Debug.Break(); //Pauses the editor for debugging purposes while testing
         }
 
         InvinceTime -= Time.deltaTime; //Reduce the Invincibility time every frame

@@ -5,7 +5,7 @@ public class InvinciblityPowerUp : MonoBehaviour {
 
     float speed = 5f;
 
-    public float duration = 5f;
+    public float duration = 20f;
     // Use this for initialization
     void Start () {
         transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.y); //Set the position of the object so its z value matches its Y value for layering purposes
