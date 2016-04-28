@@ -30,7 +30,7 @@ public class UIDisplay : MonoBehaviour {
         score = 0;
         highscore = PlayerPrefs.GetFloat("High Score");
 
-        Show_Score.text = "SCORE   " + score.ToString() + "\n Multiplier:    x" + multiplier.ToString() + "\n\n High Score:    " + highscore.ToString(); //Score starts at 0 and is displayed as such
+        Show_Score.text = "SCORE   " + score.ToString() + "\n Multiplier:    x" + multiplier.ToString() + "\n High Score:    " + highscore.ToString(); //Score starts at 0 and is displayed as such
 
 
         Shooter_Script = GameObject.Find("Dabba's Shooter").GetComponent<DabbaShooter>(); //Get the Shooter Script from Dabba to access the power and number of uses
@@ -60,7 +60,7 @@ public class UIDisplay : MonoBehaviour {
     { //Use this function when the player scores points, passing in a float for the objects point value
 
         score += Points_Earned * multiplier; //Increase score's value by the variable for points earned
-        Show_Score.text = "SCORE   " + score.ToString() + "\n Multiplier:    x" +multiplier.ToString() + "\n\n High Score:    " + highscore.ToString(); //Display in game score, multiplier, and highscore
+        Show_Score.text = "SCORE   " + score.ToString() + "\n Multiplier:    x" +multiplier.ToString() + "\n High Score:    " + highscore.ToString(); //Display in game score, multiplier, and highscore
 
         if (enemy_name == prev_object)
         { //If the enemy_name matches that of the previous object
