@@ -1,4 +1,6 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
+
 using System.Collections;
 
 public class HealthTrack: MonoBehaviour {
@@ -25,7 +27,6 @@ public class HealthTrack: MonoBehaviour {
 
             Score_Tracker.Set_High_Score(); //Call the function to set the high score
             Time.timeScale = 0; //Set time scale to 0 to effectively pause the game.
-
             //Debug.Break(); //Pauses the editor for debugging purposes while testing
         }
 
@@ -88,5 +89,12 @@ public class HealthTrack: MonoBehaviour {
             Destroy(Hazard.gameObject); //Destroy the Power Up after setting numbers
         }
 
+    }
+
+    public void BackToTitle() { //Go back to title screen
+        
+        Debug.Log("Back to Title");
+        SceneManager.LoadScene(0, LoadSceneMode.Single); //Go back to the title screen, which is indexed at screen 0
+        
     }
 }

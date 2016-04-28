@@ -70,6 +70,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Old or Buggy Scripts\UI Display.cs" />
+    <Compile Include="Assets\Scripts to Modify\ButtonScript.cs" />
     <Compile Include="Assets\Scripts to Modify\DabbaControl.cs" />
     <Compile Include="Assets\Scripts to Modify\DabbaFireball.cs" />
     <Compile Include="Assets\Scripts to Modify\DabbaScreenNuke.cs" />
