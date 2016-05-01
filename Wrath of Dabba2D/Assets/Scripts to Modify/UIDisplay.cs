@@ -74,9 +74,7 @@ public class UIDisplay : MonoBehaviour {
     }
 
     public void Set_High_Score() {
-        Debug.Log("Called Set_High_Score");
-        Debug.Log(score);
-        Debug.Log(highscore);
+
         if (score > highscore) //Set highscore to equal the current score only if the current score > saved highscore
         {
             highscore = score;

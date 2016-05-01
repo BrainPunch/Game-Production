@@ -18,6 +18,7 @@ public class HealthTrack: MonoBehaviour {
         if (!Score_Tracker) { //If ScoreTracker is not set somewhere
             Score_Tracker = GameObject.Find("Canvas").GetComponent<UIDisplay>(); //Set the score tracker to the UIDisplay script on the canvas
         }
+        Time.timeScale = 1;//Set Timescale to 1 to undo stop from previous games
     }
 
     // Update is called once per frame
@@ -32,7 +33,7 @@ public class HealthTrack: MonoBehaviour {
 
         InvinceTime -= Time.deltaTime; //Reduce the Invincibility time every frame
         if (InvinceTime <= 0 && Invinciblity == true) { //If the duration drops to 0
-            Debug.Log("Not Invincible");
+            //Debug.Log("Not Invincible");
 
             Invinciblity = false; //Set invincible to false
         }
@@ -93,8 +94,9 @@ public class HealthTrack: MonoBehaviour {
 
     public void BackToTitle() { //Go back to title screen
         
-        Debug.Log("Back to Title");
+        //Debug.Log("Back to Title");
         SceneManager.LoadScene(0, LoadSceneMode.Single); //Go back to the title screen, which is indexed at screen 0
-        
+        Score_Tracker.Set_High_Score();
+
     }
 }
