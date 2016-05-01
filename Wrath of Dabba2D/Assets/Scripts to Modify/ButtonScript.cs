@@ -19,14 +19,14 @@ public class ButtonScript : MonoBehaviour {
 
     public void GameBegins() {
 
-        Debug.Log("Trying to Start game");
+        //Debug.Log("Trying to Start game");
 
         SceneManager.LoadScene(index, LoadSceneMode.Single); //Load the scene at this index, Closes the loaded scene for the title screen
 
     }
 
     public void QuitGame() {
-        Debug.Log("Quitting Game");
+        //Debug.Log("Quitting Game");
 
         Application.Quit();
     }

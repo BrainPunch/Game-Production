@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/TestingScene.unity
+- path: Assets/titlescreen.unity
   isLoaded: 1
   isActive: 1
