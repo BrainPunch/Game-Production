@@ -13,6 +13,8 @@ public class DabbaScreenNuke : MonoBehaviour {
         t = GetComponent<Transform>(); //Get transform of the object, used to represent its position and "center" of shockwave
         Score_Tracker = GameObject.Find("Canvas").GetComponent<UIDisplay>(); //Get the script that tracks the score on the Canvas for UI display
 
+        GameObject.Find("ScreenFlash").GetComponent<FlashScript>().FlashOn(); //Trigger the flash effect
+
         ScreenNukeAttack(rad); //As soon as the shockwave is "spawned", use the function for its attack
     }
 	
