@@ -92,10 +92,10 @@ public class HealthTrack: MonoBehaviour {
 
     }
 
-    public void BackToTitle() { //Go back to title screen
+    public void StopGame() { //Go back to title screen
         
         //Debug.Log("Back to Title");
-        SceneManager.LoadScene(0, LoadSceneMode.Single); //Go back to the title screen, which is indexed at screen 0
+        SceneManager.LoadScene(2, LoadSceneMode.Single); //Go to the next scene, the game over screen
         Score_Tracker.Set_High_Score();
 
     }

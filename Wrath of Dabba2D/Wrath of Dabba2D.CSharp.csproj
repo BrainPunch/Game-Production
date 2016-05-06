@@ -76,6 +76,7 @@
     <Compile Include="Assets\Scripts to Modify\DabbaScreenNuke.cs" />
     <Compile Include="Assets\Scripts to Modify\DabbaShockwave.cs" />
     <Compile Include="Assets\Scripts to Modify\DabbaShooter.cs" />
+    <Compile Include="Assets\Scripts to Modify\EndScoreShow.cs" />
     <Compile Include="Assets\Scripts to Modify\Enemy.cs" />
     <Compile Include="Assets\Scripts to Modify\ExplodeEffect.cs" />
     <Compile Include="Assets\Scripts to Modify\FlashScript.cs" />

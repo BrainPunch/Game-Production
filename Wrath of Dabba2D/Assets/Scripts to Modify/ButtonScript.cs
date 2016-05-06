@@ -17,7 +17,7 @@ public class ButtonScript : MonoBehaviour {
 	
 	}
 
-    public void GameBegins() {
+    public void ChangeScene() {
 
         //Debug.Log("Trying to Start game");
 
