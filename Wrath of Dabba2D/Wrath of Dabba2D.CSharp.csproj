@@ -86,12 +86,14 @@
     <Compile Include="Assets\Scripts to Modify\PowerSpawnScript.cs" />
     <Compile Include="Assets\Scripts to Modify\PowerUpScript.cs" />
     <Compile Include="Assets\Scripts to Modify\RestoreHealth.cs" />
+    <Compile Include="Assets\Scripts to Modify\ScatterProjectile.cs" />
+    <Compile Include="Assets\Scripts to Modify\ScatterShooter.cs" />
     <Compile Include="Assets\Scripts to Modify\Spawner.cs" />
     <Compile Include="Assets\Scripts to Modify\TankShooter.cs" />
     <Compile Include="Assets\Scripts to Modify\TankShot.cs" />
     <Compile Include="Assets\Scripts to Modify\UIDisplay.cs" />
     <Compile Include="Assets\Scripts to Modify\VictimScript.cs" />
-    <Compile Include="Assets\scroll.cs" />
+    <Compile Include="Assets\Scripts to Modify\scroll.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
