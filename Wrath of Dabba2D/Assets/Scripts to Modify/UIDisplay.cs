@@ -8,7 +8,7 @@ public class UIDisplay : MonoBehaviour {
     public Text Show_Health;
     public HealthTrack Dabba_Health_Script; //Give the UI access to Dabba's Health Script for display purposes
 
-    float score;
+    public float score;
     float highscore; //float to hold the high score value
     float multiplier = 1;
     string prev_object = "";

@@ -7,7 +7,11 @@ public class Spawner : MonoBehaviour {
     public float StartOffset = 0f;
     public int MinWaitTime = 1;
     public int MaxWaitTime = 2;
-
+    private float mult = 1f;
+    private int multi = 11;
+    public UIDisplay UID;
+    public int difficulty = 1000;
+   
     //int SpawnInd = 0; //Int to randomly spawn something from the array of objects in Spawnables
 
     public float speed = 1.5f;
@@ -31,6 +35,7 @@ public class Spawner : MonoBehaviour {
         if (transform.position.y <= -4.2) { //If it goes to -4.2 or below
             direction = 1; //Change direction back to positive
         }
+        if (UID.score < difficulty) { mult = ((UID.score+1) / difficulty)*11; }else { mult = 11; }
 
         transform.Translate(0f, speed*direction*Time.deltaTime, speed * direction * Time.deltaTime); //Changes position along the y and z-axis, the latter for layering purposes
     }
@@ -41,8 +46,7 @@ public class Spawner : MonoBehaviour {
         float randomTime = Random.Range(MinWaitTime, MaxWaitTime); //Determine an amount of time between 3 and 8 seconds (exclusive) to invoke the function again
 
 
-
-        Instantiate (Spawnables[Random.Range(0, Spawnables.Length)], transform.position, Quaternion.identity);
+        Instantiate (Spawnables[Random.Range(0, Mathf.CeilToInt(mult))], transform.position, Quaternion.identity);
 
         Invoke("Spawn", randomTime); //Invoke the function again after the random amount of time has passed.
     }
