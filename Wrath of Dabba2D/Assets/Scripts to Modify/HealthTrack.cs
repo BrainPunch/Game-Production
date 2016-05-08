@@ -28,7 +28,7 @@ public class HealthTrack: MonoBehaviour {
 
             Score_Tracker.Set_High_Score(); //Call the function to set the high score
             Time.timeScale = 0; //Set time scale to 0 to effectively pause the game.
-            //Debug.Break(); //Pauses the editor for debugging purposes while testing
+            StopGame(); //Call the function that stops the game
         }
 
         InvinceTime -= Time.deltaTime; //Reduce the Invincibility time every frame
@@ -92,9 +92,8 @@ public class HealthTrack: MonoBehaviour {
 
     }
 
-    public void StopGame() { //Go back to title screen
+    public void StopGame() { //Change the scene since the game is over.
         
-        //Debug.Log("Back to Title");
         SceneManager.LoadScene(2, LoadSceneMode.Single); //Go to the next scene, the game over screen
         Score_Tracker.Set_High_Score();
 
