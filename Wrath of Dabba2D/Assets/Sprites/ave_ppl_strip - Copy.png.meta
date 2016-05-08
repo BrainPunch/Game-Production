@@ -1,0 +1,254 @@
+fileFormatVersion: 2
+guid: 2bf8cb8eca17823458f2a37ef634e672
+timeCreated: 1462735163
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ave_ppl_strip - Copy_0
+    21300002: ave_ppl_strip - Copy_1
+    21300004: ave_ppl_strip - Copy_2
+    21300006: ave_ppl_strip - Copy_3
+    21300008: ave_ppl_strip - Copy_4
+    21300010: ave_ppl_strip - Copy_5
+    21300012: ave_ppl_strip - Copy_6
+    21300014: ave_ppl_strip - Copy_7
+    21300016: ave_ppl_strip - Copy_8
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: ave_ppl_strip - Copy_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 998
+        height: 1228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -86, y: -111}
+        - {x: 29, y: -130}
+        - {x: 88, y: -130}
+        - {x: 112, y: -122}
+        - {x: 112, y: -70}
+        - {x: 60, y: 140}
+        - {x: -66, y: 140}
+        - {x: -86, y: 5}
+    - name: ave_ppl_strip - Copy_1
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 0
+        width: 998
+        height: 1228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 48.055557, y: 65}
+        - {x: 45.055557, y: 125}
+        - {x: 15.055557, y: 140}
+        - {x: -26.944443, y: 140}
+        - {x: -26.944443, y: -140}
+        - {x: 39.055557, y: -140}
+        - {x: 62.055557, y: -85}
+        - {x: 62.055557, y: 60}
+        - {x: 52.055557, y: 65}
+    - name: ave_ppl_strip - Copy_2
+      rect:
+        serializedVersion: 2
+        x: 1996
+        y: 0
+        width: 998
+        height: 1228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37.888885, y: 140}
+        - {x: -39.888885, y: 139}
+        - {x: -64.888885, y: -88}
+        - {x: -64.888885, y: -118}
+        - {x: -52.888885, y: -137}
+        - {x: -8.8888855, y: -137}
+        - {x: 66.111115, y: -95}
+        - {x: 74.111115, y: -71}
+        - {x: 74.111115, y: 39}
+        - {x: 26.111115, y: 140}
+    - name: ave_ppl_strip - Copy_3
+      rect:
+        serializedVersion: 2
+        x: 2994
+        y: 0
+        width: 998
+        height: 1228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.833313, y: 140}
+        - {x: -101.83331, y: 37}
+        - {x: -101.83331, y: -77}
+        - {x: 62.166687, y: -77}
+        - {x: 115.16669, y: -73}
+        - {x: 115.16669, y: 0}
+        - {x: 80.16669, y: 89}
+        - {x: 31.166687, y: 140}
+    - name: ave_ppl_strip - Copy_4
+      rect:
+        serializedVersion: 2
+        x: 3992
+        y: 0
+        width: 998
+        height: 1228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.777771, y: 140}
+        - {x: -22.777771, y: 139}
+        - {x: -35.77777, y: 93}
+        - {x: -97.77777, y: -6}
+        - {x: -97.77777, y: -56}
+        - {x: -87.77777, y: -82}
+        - {x: 6.222229, y: -110}
+        - {x: 88.22223, y: -110}
+        - {x: 88.22223, y: 29}
+        - {x: 40.22223, y: 140}
+      - - {x: -35.77777, y: 74}
+        - {x: -33.77777, y: 72}
+        - {x: -30.777771, y: 73}
+        - {x: -29.777771, y: 77}
+        - {x: -32.77777, y: 79}
+        - {x: -35.77777, y: 76}
+    - name: ave_ppl_strip - Copy_5
+      rect:
+        serializedVersion: 2
+        x: 4990
+        y: 0
+        width: 998
+        height: 1228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.722168, y: 140}
+        - {x: -33.722168, y: -90}
+        - {x: -17.722168, y: -102}
+        - {x: 6.277832, y: -112}
+        - {x: 29.277832, y: -112}
+        - {x: 52.277832, y: -80}
+        - {x: 52.277832, y: 127}
+        - {x: 38.277832, y: 140}
+    - name: ave_ppl_strip - Copy_6
+      rect:
+        serializedVersion: 2
+        x: 5988
+        y: 0
+        width: 998
+        height: 1228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 80.333374, y: 40}
+        - {x: 60.333374, y: 128}
+        - {x: 38.333374, y: 140}
+        - {x: -48.666626, y: 140}
+        - {x: -53.666626, y: 135}
+        - {x: -53.666626, y: -101}
+        - {x: -48.666626, y: -114}
+        - {x: -1.666626, y: -114}
+        - {x: 2.333374, y: -101}
+        - {x: 38.333374, y: -103}
+        - {x: 80.333374, y: -68}
+    - name: ave_ppl_strip - Copy_7
+      rect:
+        serializedVersion: 2
+        x: 6986
+        y: 0
+        width: 998
+        height: 1228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -55.611084, y: 140}
+        - {x: -95.611084, y: 25}
+        - {x: -95.611084, y: -45}
+        - {x: -83.611084, y: -44}
+        - {x: -77.611084, y: -35}
+        - {x: -74.611084, y: -28}
+        - {x: -31.611084, y: -58}
+        - {x: 70.388916, y: -81}
+        - {x: 98.388916, y: -81}
+        - {x: 100.388916, y: -80}
+        - {x: 100.388916, y: -35}
+        - {x: 32.388916, y: 140}
+    - name: ave_ppl_strip - Copy_8
+      rect:
+        serializedVersion: 2
+        x: 7984
+        y: 0
+        width: 998
+        height: 1228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -82.55554, y: -59}
+        - {x: 32.444458, y: -137}
+        - {x: 91.44446, y: -137}
+        - {x: 91.44446, y: 13}
+        - {x: 56.444458, y: 140}
+        - {x: -68.55554, y: 140}
+        - {x: -82.55554, y: 85}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
