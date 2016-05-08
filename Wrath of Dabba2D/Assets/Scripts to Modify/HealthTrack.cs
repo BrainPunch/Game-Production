@@ -94,7 +94,7 @@ public class HealthTrack: MonoBehaviour {
 
     public void StopGame() { //Change the scene since the game is over.
         
-        SceneManager.LoadScene(2, LoadSceneMode.Single); //Go to the next scene, the game over screen
+        SceneManager.LoadScene(3, LoadSceneMode.Single); //Go to the 3rd scene in the index, the game over screen
         Score_Tracker.Set_High_Score();
 
     }

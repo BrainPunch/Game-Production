@@ -1,4 +1,6 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
+
 using System.Collections;
 
 public class DabbaControl: MonoBehaviour {
@@ -10,9 +12,14 @@ public class DabbaControl: MonoBehaviour {
 
     float Xspeed = 1; //Variable to control x-axis movement
 
-	// Use this for initialization
-	void Start () {
+    public UIDisplay Score_Tracker;
 
+    // Use this for initialization
+    void Start () {
+        if (!Score_Tracker)
+        { //If ScoreTracker is not set somewhere
+            Score_Tracker = GameObject.Find("Canvas").GetComponent<UIDisplay>(); //Set the score tracker to the UIDisplay script on the canvas
+        }
     }
 	
 	// Update is called once per frame
@@ -20,7 +27,8 @@ public class DabbaControl: MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.Escape)) //If escape key is pressed, quit the application.
         {
             //Debug.Log("Hit Escape key");
-            Application.Quit();
+            SceneManager.LoadScene(3, LoadSceneMode.Single); //Go to the 3rd scene in the index, the game over screen
+            Score_Tracker.Set_High_Score();
         }
 
         move = new Vector3( ((Input.GetAxis("Vertical"))/2) * Xspeed, Input.GetAxis("Vertical"), 0); //Define a Vector3 for the movement. X changes half as much as Y for perspective, and uses Xspeed to limit movement at border
