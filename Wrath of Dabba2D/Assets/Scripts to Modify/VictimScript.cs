@@ -14,12 +14,13 @@ public class VictimScript : MonoBehaviour {
     public int direction = 1;
 
     public GameObject Explosive;
-
+    public AudioSource scream = null;
 
     // Use this for initialization
     void Start () {
         t = GetComponent<Transform>();
-
+        scream.pitch = Random.Range(0.5f, 1f);
+        scream.Play();
         t.position = new Vector3(t.position.x, t.position.y, t.position.y); //Set the position of the object so its z value matches its Y value for layering purposes
     }
 
