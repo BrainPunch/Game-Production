@@ -10,6 +10,8 @@ public class HealthTrack: MonoBehaviour {
     public AudioSource agh = null;
     public AudioSource invin = null;
     public AudioSource bgm = null;
+    public AudioSource bing = null;
+    public AudioSource health = null;
 
     public UIDisplay Score_Tracker;
 
@@ -90,12 +92,13 @@ public class HealthTrack: MonoBehaviour {
             ShooterScript.Power = PowerScript.Ability;
             ShooterScript.uses = PowerScript.Uses;
             Destroy(Hazard.gameObject); //Destroy the Power Up after setting numbers
+            bing.Play();
         }
 
         else if (Hazard.gameObject.tag == "Health") { //For the health restoring power up
             RestoreHealth HealthScript = Hazard.gameObject.GetComponent<RestoreHealth>(); //Get the script for restoring health
             Health += HealthScript.Restores; //Restore the amount of health for the power up
-
+            health.Play();
             Score_Tracker.Took_Damage(); //Calls UI Script's function for damage to change display text. Same script despite health being gained
             Destroy(Hazard.gameObject); //Destroy the Power Up after setting numbers
         }

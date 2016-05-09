@@ -35,7 +35,7 @@ public class Spawner : MonoBehaviour {
         if (transform.position.y <= -4.2) { //If it goes to -4.2 or below
             direction = 1; //Change direction back to positive
         }
-        if (UID.score < difficulty) { mult = ((UID.score+1) / difficulty)*11; }else { mult = 11; }
+        if (UID.score < difficulty) { mult = ((UID.score+1) / difficulty)*14; }else { mult = 11; }
 
         transform.Translate(0f, speed*direction*Time.deltaTime, speed * direction * Time.deltaTime); //Changes position along the y and z-axis, the latter for layering purposes
     }
