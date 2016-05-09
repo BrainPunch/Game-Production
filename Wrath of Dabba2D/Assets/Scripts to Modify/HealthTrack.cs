@@ -12,6 +12,7 @@ public class HealthTrack: MonoBehaviour {
 
     public bool Invinciblity = false; //Boolean to decide if Dabba is Invincible
     float InvinceTime = 0f; //Time Dabba will be invincible for.
+    Animator anim;
 
     // Use this for initialization
     void Start () {
@@ -19,6 +20,7 @@ public class HealthTrack: MonoBehaviour {
             Score_Tracker = GameObject.Find("Canvas").GetComponent<UIDisplay>(); //Set the score tracker to the UIDisplay script on the canvas
         }
         Time.timeScale = 1;//Set Timescale to 1 to undo stop from previous games
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -30,7 +32,7 @@ public class HealthTrack: MonoBehaviour {
             Time.timeScale = 0; //Set time scale to 0 to effectively pause the game.
             StopGame(); //Call the function that stops the game
         }
-
+        if (Invinciblity == true) { GetComponent<SpriteRenderer>().color = new Color(Random.Range(0f, 1f), Random.Range(0f, 1f), Random.Range(0f, 1f)); } else { GetComponent<SpriteRenderer>().color = new Color(1, 1, 1); }
         InvinceTime -= Time.deltaTime; //Reduce the Invincibility time every frame
         if (InvinceTime <= 0 && Invinciblity == true) { //If the duration drops to 0
             //Debug.Log("Not Invincible");
@@ -51,6 +53,8 @@ public class HealthTrack: MonoBehaviour {
 
                 Health -= Enemy_Script.damage; //Subtract the enemy's damage value from Dabba's health
                 Score_Tracker.Took_Damage(); //Calls UI Script's function for damage to change display text.
+                if (Enemy_Script.damage > 0) { anim.SetTrigger("hurt"); }
+                print("hit");
             }
             else { Debug.Log("Invincible, no damage"); }
             

@@ -7,6 +7,7 @@ public class DabbaShockwave : MonoBehaviour {
     public UIDisplay Score_Tracker;
 
     public float rad = 3.5f;
+    public GameObject shockwave;
 
 	// Use this for initialization
 	void Start () {
@@ -14,7 +15,8 @@ public class DabbaShockwave : MonoBehaviour {
         Score_Tracker = GameObject.Find("Canvas").GetComponent<UIDisplay>(); //Get the script that tracks the score on the Canvas for UI display
 
         ShockWaveAttack(rad); //As soon as the shockwave is "spawned", use the function for its attack
-	}
+        Instantiate(shockwave, transform.position, Quaternion.identity);
+    }
 	
 	// Update is called once per frame
 	void Update () {

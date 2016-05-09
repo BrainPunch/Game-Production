@@ -33,7 +33,7 @@ public class UIDisplay : MonoBehaviour {
         Show_Score.text = "SCORE   " + score.ToString() + "\n Multiplier:    x" + multiplier.ToString() + "\n High Score:    " + highscore.ToString(); //Score starts at 0 and is displayed as such
 
 
-        Shooter_Script = GameObject.Find("Dabba's Shooter").GetComponent<DabbaShooter>(); //Get the Shooter Script from Dabba to access the power and number of uses
+        //Shooter_Script = GameObject.Find("Dabba's Shooter").GetComponent<DabbaShooter>(); //Get the Shooter Script from Dabba to access the power and number of uses
 
         Show_Ability.text = "Ability"; //No ability initially
     }
