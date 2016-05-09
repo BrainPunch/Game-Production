@@ -8,6 +8,9 @@ public class DabbaControl: MonoBehaviour {
 
 	public float speed = 5f; //Magnitude of Dabba's movement speed
     private Vector3 move; //Vector3 Variable will be used to define direction of movement
+    public int mod = 1;
+    private int timetracker = 0;
+    public AudioSource foot = null;
 
 
     float Xspeed = 1; //Variable to control x-axis movement
@@ -29,8 +32,15 @@ public class DabbaControl: MonoBehaviour {
             //Debug.Log("Hit Escape key");
             SceneManager.LoadScene(3, LoadSceneMode.Single); //Go to the 3rd scene in the index, the game over screen
             Score_Tracker.Set_High_Score();
-        }
+            
 
+        }
+        timetracker += 1;
+        //print(timetracker);
+        if (timetracker % mod == 0) {
+            foot.Play();
+            print("step");
+        }
         move = new Vector3( ((Input.GetAxis("Vertical"))/2) * Xspeed, Input.GetAxis("Vertical"), 0); //Define a Vector3 for the movement. X changes half as much as Y for perspective, and uses Xspeed to limit movement at border
 
         transform.position += move * speed * Time.deltaTime; //Adjust position based on speed and deltaTime

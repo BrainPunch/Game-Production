@@ -4,6 +4,7 @@ using System.Collections;
 public class FlashScript : MonoBehaviour {
 
     public float FlashTime = 0.001f;
+    public AudioSource boom = null;
 
     public float EffectOpacity = 0.8f;
 
@@ -28,7 +29,7 @@ public class FlashScript : MonoBehaviour {
         TempColor = RenderComp.color; //Copy the color details from the object's Sprite Renderer
         TempColor.a = EffectOpacity; //Change the .a (alpha) property, which influences the opacity
         RenderComp.color = TempColor; //Apply this alterered color to the Renderer
-
+        boom.Play();
         Invoke("FlashOff", FlashTime);
     }
 
